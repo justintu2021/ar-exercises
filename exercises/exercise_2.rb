@@ -16,10 +16,10 @@ puts "----------"
 @store1 = Store.where(id: 1)
 @store2 = Store.where(id: 2)
 
-p @store1
-p @store2
+# p @store1
+# p @store2
 
 @store1 = Store.find_by(id: 1)
 @store1.update(name: "Toronto")
 
-p @store1
+# p @store1
